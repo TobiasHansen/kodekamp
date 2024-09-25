@@ -8,7 +8,7 @@ import io.ktor.server.routing.*
 import no.mattilsynet.services.GameEngineRepository
 import no.mattilsynet.services.GameEngineService
 
-fun Application.configureSerialization() {
+fun Application.configureGameRoutes() {
     val gameService = GameEngineService(GameEngineRepository())
     install(ContentNegotiation) {
         json()
