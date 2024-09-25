@@ -1,0 +1,6 @@
+### GET request to example server
+#GET http://localhost:8080/
+GET https://f4f6-194-19-30-150.ngrok-free.app/text
+
+###
+GET https://f4f6-194-19-30-150.ngrok-free.app/
