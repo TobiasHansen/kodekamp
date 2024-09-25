@@ -3,4 +3,10 @@
 GET https://f4f6-194-19-30-150.ngrok-free.app/
 
 ###
-GET https://f4f6-194-19-30-150.ngrok-free.app/
+POST https://f4f6-194-19-30-150.ngrok-free.app/to
+Content-Type: application/json
+
+{
+  "positionX": 1,
+  "positionY": 1
+}
